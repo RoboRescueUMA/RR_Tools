@@ -13,25 +13,26 @@ Cuando la carpeta RR_Scripts esté en el directorio home (~) se podrá comenzar 
 	`sudo chmod +x  ~/RR_Scripts/install_rr_env.sh ~/RR_Scripts/install_terminator.sh ~/RR_Scripts/upload_rr_env.sh ~/RR_Scripts/install_ros_noetic.sh`
 	
 ***
-2. Vamos a trabajar con el terminal Terminator. Para instalarlo solo hay que ejecutar el comando:
-   
-	`source ~/RR_Scripts/install_terminator.sh`
-	
-A partir de este punto se asume que en el equipo se encuentra instalado ROS Noetic y se ha cargado el entorno con la instrucción:
-
-	source /opt/ros/noetic/setup.bash
-
-***
-3. Para instalar Visual Studio Code ejecutar el siguiente comando:
+2. Para instalar Visual Studio Code ejecutar el siguiente comando:
 
 	`snap install code --classic`
-	
+
+***
+3. Vamos a trabajar con el terminal Terminator. Para instalarlo solo hay que ejecutar el comando:
+   
+	`source ~/RR_Scripts/install_terminator.sh`
+
 ***
 4. Instalar ROS Noetic siguiendo los pasos de la página web: http://wiki.ros.org/noetic/Installation/Ubuntu
 
 Alternativamente se puede ejecutar el siguiente comando (tadavía no está testeado, pero hace lo mismo que pone en la página web)
 
 	`source ~/RR_Scripts/install_ros_noetic.sh`
+	
+A partir de este punto se asume que en el equipo se encuentra instalado ROS Noetic y se ha cargado el entorno con la instrucción:
+
+	source /opt/ros/noetic/setup.bash
+
 
 ***
 5. Si es la primera vez que se instala el entorno de Roborescue se procederá a crear el workspace y preparar el entorno de Roborescue ejecutando la siguiente instrucción
