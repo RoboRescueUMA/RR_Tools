@@ -9,7 +9,7 @@ La arquitectura de comunicación son dos líneas separadas en las que:
 
 * publisher_2 publica mensajes de texto en topic_2, y estos son leídos por subscriber_2.
 
-*Insertar imagen
+<img src="https://github.com/RoboRescueUMA/RR_Tools/edit/main/ROS_TELECO/IMAGES/img_1.png" align="center">
 
 ## Uso básico
 
@@ -44,6 +44,8 @@ En el tercero:
 
 Ahora podemos escribir en el terminal de publisher y al pulsar *Enter* aparecerá el mensaje en el subscriber.
 
+
+<img src="https://github.com/RoboRescueUMA/RR_Tools/edit/main/ROS_TELECO/IMAGES/img_2.png" align="center">
 
 
 ## Telecomunicación entre varios ordenadores
