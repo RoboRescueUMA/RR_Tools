@@ -22,11 +22,11 @@ Para esta parte, necesitaremos la imagen ISO de `Ubuntu 20.04` y el programa `Ru
 
 Cuando tenemos descargados ambas cosas, ejecutamos rufus y conectamos al ordenador un USB que será el que tendrá el instalador de `Ubuntu 20.04`. Este USB debe estar vacío y tener unos 10 GB de memoria mínimo (Esto es espacio de sobra pero es mejor). 
 
-1. Ejecutamos el programa rufus
+1. Ejecutamos el programa rufus.
 
-2. Elegimos la imagen ISO de Ubuntu y el USB
+2. Dentro del programa, hacemos click en `SELECCIONAR`, elegimos la imagen ISO de Ubuntu y el USB y escogemos el Tamaño de partición de unos 10 GB.
 
-3. Pulsamos en Empezar para formatear el USB
+3. Pulsamos en Empezar para formatear el USB.
 
 ## Abrir la BIOS para cambiar el orden de arranque
 
@@ -34,7 +34,7 @@ Ahora debemos cambiar el orden de arranque del ordenador para que en vez de arra
 
 1. Creamos en el escritorio un nuevo acceso directo.
 
-2. Como dirección escribimos `shutdown /r /fw /t 1`. Como nombre ponemos lo que queramos. Esto creará un icono en el escritorio que, al pulsarlo, reiniciará el ordenador y nos meterá en la BIOS.
+2. Como dirección escribimos `shutdown /r /fw /t 1`. Como nombre ponemos lo que queramos. Tras crearlo entramos en propiedades y en `Opciones avanzadas` activamos `Ejecutar como administrador`. Esto creará un icono en el escritorio que, al pulsarlo, reiniciará el ordenador y nos meterá en la BIOS.
 
 3. Estando en la BIOS debemos cambiar el orden de arranque para que el ordenador inicie ahora desde nuestro usb. Además, hay que asegurarse de que el arranque seguro está apagado ya que esto puedo generar que Ubuntu no se pueda conectar a ninguna red.
 
