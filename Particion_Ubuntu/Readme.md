@@ -28,6 +28,8 @@ Cuando tenemos descargados ambas cosas, ejecutamos rufus y conectamos al ordenad
 
 3. Pulsamos en Empezar para formatear el USB.
 
+Una vez terminado vamos a acceder a la BIOS del ordenador.
+
 ## Abrir la BIOS para cambiar el orden de arranque
 
 Ahora debemos cambiar el orden de arranque del ordenador para que en vez de arrancar desde el disco de Windows, arranque desde nuestro USB. Para ello tenemos que entrar en la BIOS:
@@ -36,7 +38,7 @@ Ahora debemos cambiar el orden de arranque del ordenador para que en vez de arra
 
 2. Como dirección escribimos `shutdown /r /fw /t 1`. Como nombre ponemos lo que queramos. Tras crearlo entramos en propiedades y en `Opciones avanzadas` activamos `Ejecutar como administrador`. Esto creará un icono en el escritorio que, al pulsarlo, reiniciará el ordenador y nos meterá en la BIOS.
 
-3. Estando en la BIOS debemos cambiar el orden de arranque para que el ordenador inicie ahora desde nuestro usb. Además, hay que asegurarse de que el arranque seguro está apagado ya que esto puedo generar que Ubuntu no se pueda conectar a ninguna red.
+3. Estando en la BIOS debemos cambiar el orden de arranque para que el ordenador inicie ahora desde nuestro USB, para ello debemos colocar nuestro USB en primer lugar. Además, debemos asegurarnos de que el arranque seguro está apagado, ya que esto puedo generar que Ubuntu no se pueda conectar a ninguna red inalámbrica.
 
 4. Salimos de la BIOS y el ordenador comenzará la instalación de Ubuntu.
 
