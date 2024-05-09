@@ -11,12 +11,12 @@ Para crear la partición en la que instalaremos Ubuntu en nuestro ordenador, deb
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/775ed4a2-5931-418b-9d67-d1dbb71cbf25)
 
 
-3. Seleccionar en la ventana el espacio de disco que quieres reducir de tamaño y, con click derecho, seleccionar reducir volumen.
+2. Seleccionar en la ventana el espacio de disco que quieres reducir de tamaño y, con click derecho, seleccionar reducir volumen.
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/6451afa6-0a3f-4ae8-af90-a7f7268445f6)
 
 
-4. Aparece una ventana en la que eliges el tamaño en MegaBytes que quieres separar del espacio original. Lo normal es que se elija un espacio entre 30 y 50 GigaBytes para nuestra instalación de Ubuntu.
+3. Aparece una ventana en la que eliges el tamaño en MegaBytes que quieres separar del espacio original. Lo normal es que se elija un espacio entre 30 y 50 GigaBytes para nuestra instalación de Ubuntu.
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/483702e7-71a4-47c4-9fbd-f3e0c4b0f15d)
 
@@ -38,7 +38,7 @@ Cuando tenemos descargados ambas cosas, ejecutamos rufus y conectamos al ordenad
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/9c16c501-5c74-40bc-a0c6-c80089453499)
 
-4. Pulsamos en Empezar para formatear el USB.
+3. Pulsamos en Empezar para formatear el USB.
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/4278dc78-8fe0-4527-a060-e445587098bc)
 
@@ -63,9 +63,9 @@ Una vez terminado vamos a acceder a la BIOS del ordenador.
 ## Abrir la BIOS para cambiar el orden de arranque
 
 Ahora debemos cambiar el orden de arranque del ordenador para que en vez de arrancar desde el disco de Windows, arranque desde nuestro USB. Para ello tenemos que entrar en la BIOS e indicar la nueva unidad de arranque.
-1) Mete el USB en una ranura
-2) Enciende el ordenador pulsando inmediatamente la tecla que ejecute el selector de unidad para el arranque. Por lo general esta debería ser F12, pero dependiendo de la BIOS y el PC pueden ser otras como F1, F8, F9, F10, TAB o ESC.
-3) Cuando veas el menú, selecciona la unidad del USB de arranque y pulsa Enter para arrancar el ordenador a través de él.
+1. Mete el USB en una ranura
+2. Enciende el ordenador pulsando inmediatamente la tecla que ejecute el selector de unidad para el arranque. Por lo general esta debería ser F12, pero dependiendo de la BIOS y el PC pueden ser otras como F1, F8, F9, F10, TAB o ESC.
+3. Cuando veas el menú, selecciona la unidad del USB de arranque y pulsa Enter para arrancar el ordenador a través de él.
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/490d9234-aa31-4ba4-a45e-a3dfbd2666c5)
 
