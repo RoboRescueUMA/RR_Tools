@@ -101,3 +101,7 @@ Una vez hecho todo esto, la instalación comenzará y ya tendrás instalado Ubun
 ## Cambiar entre Ubuntu y Windows
 
 Teniendo ya instalado Ubuntu 20.04, cambiar entre los sistemas operativos es muy sencillo. Simplemente reiniciamos el ordenador, al arrancar, el propio ordenador nos pregunta si queremos entrar en Ubuntu o en Windows.
+
+## ENLACES DE INTERÉS
+https://www.xataka.com/basics/como-instalar-linux-a-windows-10-ordenador
+https://www.youtube.com/watch?v=Hn8IXfQ94-0
