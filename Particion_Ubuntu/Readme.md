@@ -65,12 +65,13 @@ Una vez terminado vamos a acceder a la BIOS del ordenador.
 Ahora debemos cambiar el orden de arranque del ordenador para que en vez de arrancar desde el disco de Windows, arranque desde nuestro USB. Para ello tenemos que entrar en la BIOS e indicar la nueva unidad de arranque.
 1. Mete el USB en una ranura
 2. Enciende el ordenador pulsando inmediatamente la tecla que ejecute el selector de unidad para el arranque. Por lo general esta debería ser F12, pero dependiendo de la BIOS y el PC pueden ser otras como F1, F8, F9, F10, TAB o ESC.
-3. Cuando veas el menú, selecciona la unidad del USB de arranque y pulsa Enter para arrancar el ordenador a través de él.
+   - Si no conoces la tecla que debes pulsar, un modo más sencillo es crear en el escritorio un acceso directo, en dirección escribimos `shutdown /r /fw /t 1`, pulsamos siguiente y en nombre ponemos lo que queramos y pulsamos finalizar. Por último, con click derecho en el acceso directo, entramos en `Propiedades` y, en `opciones avanzadas`, elegimos ejecutar como administrador. Con esto, al ejecutarlo, reiniciará el ordenador y nos meterá en la BIOS automáticamente sin pulsar ninguna tecla.
+4. Cuando veas el menú, selecciona la unidad del USB de arranque y pulsa Enter para arrancar el ordenador a través de él. Cada BIOS es distinta, así que modificar el orden de arranque del ordenador puede cambiar de un ordenador a otro.
 
 ![image](https://github.com/RoboRescueUMA/RR_Tools/assets/129277489/490d9234-aa31-4ba4-a45e-a3dfbd2666c5)
 
 
-Debemos asegurarnos de que el arranque seguro está apagado, ya que esto puedo generar que Ubuntu no se pueda conectar a ninguna red inalámbrica.
+Es muy importante que nos aseguremos de que el `Arranque Seguro` está apagado, ya que esto puede generar que Ubuntu no se pueda conectar a ninguna red inalámbrica.
 
 4. Salimos de la BIOS y el ordenador comenzará la instalación de Ubuntu.
 
