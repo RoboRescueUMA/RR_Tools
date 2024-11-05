@@ -21,3 +21,4 @@ sudo rosdep init
 
 rosdep update
 
+sudo apt install git
