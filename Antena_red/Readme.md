@@ -79,25 +79,30 @@ Y más aún.
 
 Para configurar la antena de red en una torre y poder utilizarla, hay que seguir los siguientes pasos:
 
-1. Descargar el archivo ZIP que viene en este enlace:
+1. Para poder tener internet en el PC, primero deberemos conectar nuestro movil, en caso de no tener cable wifi, y compartir los datos móviles vía USB.
+
+2. Descargar el archivo ZIP que viene en este enlace:
 
 `https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEJIdzFMRzNySDVWMWpiTHJTbHA3SjNDWm5ZQXxBQ3Jtc0ttWjg3U1dyb1I5dU16SzREOTktYTZSWDVoZ1E1cW1CT0U4ZnMwSWVtQnU2bTlaTUtGZ0JtclhUeHBCN1pXQUxBS0Y1VlJVR0Y4NjVjQ2V4alZ1UW5MenBjTFM3RDVSdnllb3huUDhjU1FQX0xGMUExbw&q=https%3A%2F%2Fgithub.com%2FRinCat%2FRTL88x2BU-Linux-Driver%2Farchive%2Fmaster.zip&v=Yp0PbTZ43K0`
 
-2. A continuación, abrimos un terminal y ejecutamos los dos comandos siguientes:
+3. A continuación, abrimos un terminal y ejecutamos los dos comandos siguientes:
 
         sudo apt update
         sudo apt install git linux-headers-generic dkms
 
-3. Descomprimimos en la carpeta personal el archivo ZIP que hemos descargado y luego abrimos un terminal en el directorio descomprimido usando:
+4. Descomprimimos en la carpeta personal el archivo ZIP que hemos descargado y luego abrimos un terminal en el directorio descomprimido usando:
 
         cd RTL88x2BU-Linux-Driver-master
 
-4. Por último, ya solo queda hacer uno por uno cada uno de los comandos siguientes y ya tendríamos funcionando nuestra antena:
+5. Por último, ya solo queda hacer uno por uno cada uno de los comandos siguientes y ya tendríamos funcionando nuestra antena:
     
         sudo make uninstall
         make clean
         make
         sudo make install
+
+Antes de continuar, debemos estar seguros de que el 'Secure Boot' del ordenador está apagado, ya que de lo contrario el comando modprobe nos dará errores.
+
         sudo modprobe 88x2bu
         sudo reboot
 
