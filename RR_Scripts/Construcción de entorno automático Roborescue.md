@@ -20,7 +20,7 @@ Cuando la carpeta *RR_Scripts* esté en el directorio home (~) se podrá comenza
 ***
 * Vamos a trabajar con el terminal *Terminator*. Para instalarlo solo hay que ejecutar el comando:
    
-	`source ~/RR_Scripts/install_terminator.sh`
+	`sudo apt install terminator`
 
 * Para instalar *git* ejecutar:
 
