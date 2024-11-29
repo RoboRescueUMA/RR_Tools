@@ -20,3 +20,5 @@ sudo apt install python3-rosdep
 sudo rosdep init
 
 rosdep update
+
+sudo apt-get install ros-noetic-teleop-twist-keyboard
